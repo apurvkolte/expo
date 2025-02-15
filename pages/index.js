@@ -6,14 +6,14 @@ import PlayReal from '../Components/PlayReal'
 import Images from '../Components/Images'
 import Spread from '../Components/Spread'
 import Footer from '../Components/Footer'
-import LocomotiveScroll from 'locomotive-scroll';
+// import LocomotiveScroll from 'locomotive-scroll';
 
 const index = () => {
-    if (typeof window !== "undefined") {
-        const locomotiveScroll = new LocomotiveScroll();
-    }
+    // if (typeof window !== "undefined") {
+    //     const locomotiveScroll = new LocomotiveScroll();
+    // }
     return (
-        <div className='w-full'>
+        <div className='w-full scroll-smooth'>
             <Navbar />
             <Landing />
             <Work />

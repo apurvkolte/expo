@@ -25,13 +25,13 @@ const Work = () => {
                     <p className='sm:leading-2 text-md sm:text-2xl sm:tracking-tight sm:text-left mt-5 font-[400]'>Highlights of cases that we passionately built with forward-thinking clients and friends over the years.</p>
                 </div>
 
-
                 <div className='block sm:flex sm:flex-wrap sm:gap-[9rem] mt-10 '>
                     <div className='elems '>
                         <div className='ele w-full sm:w-[100%]'>
                             <div className='video w-full relative overflow-hidden h-[104vw] sm:h-[50vw] group'>
                                 <img className='hidden sm:block w-full h-full object-cover' src="https://images.unsplash.com/photo-1735078254602-b7818942c324?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwzfHx8ZW58MHx8fHx8" alt="" />
-                                <video autoPlay muted loop className='block sm:hidden group-hover:block  w-full h-full scale-[1.3] absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2' src="https://player.vimeo.com/progressive_redirect/playback/1047169994/rendition/720p/file.mp4?loc=external&log_user=0&signature=780c70237c241a1fe7a4b3837cad974ed7fb98f38cd2e6f912752ff9e44107ee"></video>
+                                <video autoPlay muted loop
+                                    className='block sm:hidden group-hover:block  w-full h-full scale-[1.3] absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2' src="https://player.vimeo.com/progressive_redirect/playback/1047169994/rendition/720p/file.mp4?loc=external&log_user=0&signature=780c70237c241a1fe7a4b3837cad974ed7fb98f38cd2e6f912752ff9e44107ee"></video>
                             </div>
                             <div className='mt-4'>
                                 <h3 className='font-semibold'>Ottografie</h3>
